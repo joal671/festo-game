@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.7.0</Version>
+    <SymbolConfigObject version="3.5.7.20" />
+    <ProjectInfo name="prueba 2" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BYTE" size="1" swapsize="1" typeclass="Byte" iecname="BYTE" />
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="PLC_PRG">
+        <Node name="AB0" type="T_BYTE" access="ReadWrite" />
+        <Node name="EB0" type="T_BYTE" access="ReadWrite" />
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>
